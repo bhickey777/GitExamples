@@ -1,0 +1,7 @@
+services:
+  app:
+    image: eclipse-temurin:21-jdk
+    working_dir: /app
+    volumes:
+      - ./src:/app/src:ro
+    command: sh -c "javac -d out src/Main.java && java -cp out Main"
