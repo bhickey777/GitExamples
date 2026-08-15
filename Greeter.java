@@ -1,5 +1,6 @@
 public class Greeter extends Human {
 	public Greeter() {
 	   System.out.println("Hey there Brian H.");
+	   System.out.println("Hey there my name is Brian.");
 	}
 }
