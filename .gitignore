@@ -45,6 +45,4 @@ out/
 *.iws
 *.ipr
 
-#VS Code Java
-.vscode/
 
